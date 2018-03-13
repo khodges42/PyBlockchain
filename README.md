@@ -29,13 +29,27 @@ print(bc.get_blockinfo(index = 1))
 
 ## Todo
 - Flask "nodes"
+
 -- API
+
 --- /blockchain (Returns whole chain)
+
 --- /blockchain/<index> (Returns index)
+  
 --- /blockchain/<hash> (Returns hash)
+  
 --- /write (Write data to current block being mined)
+
 --- /peers (Return peers)
+
 -- Mining
+
 --- Consensus
+
 -- Network
+
 --- Connect to peers
+
+- Convince someone this is worth money
+
+-- Lambo
