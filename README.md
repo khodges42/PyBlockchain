@@ -46,9 +46,14 @@ print(bc.get_blockinfo(index = 1))
 
 --- Consensus
 
+--- Proof of work?
+
 -- Network
 
 --- Connect to peers
+
+--- Import from peer
+
 
 - Convince someone this is worth money
 
