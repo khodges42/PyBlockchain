@@ -24,6 +24,15 @@ def display_tree(t, depth=0):
 display_tree(bc.get_data(index=1))
 print(bc.head.get_blockinfo())
 print(bc.get_blockinfo(index = 1))
+
+
+
+ptree = Radix_Tree(children = ['test','tensor', 'testing', 'nottest', 'tessssst'])
+ptree.display()
+print ptree.is_in("test")
+print ptree.is_in("no")
+
+
 ```
 
 
